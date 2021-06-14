@@ -1,0 +1,113 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(104, 166, 168, 0.85);
+    /* width: 50%; */
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Container {
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* justify-content: center; */
+    padding: 30px 30px 50px 30px;
+    height: 80%;
+    width: 25%;
+    overflow: hidden;
+}
+
+.Head {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+}
+
+.Body {
+    /* border: 1px solid green; */
+    padding-top: 20px;
+}
+
+input {
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 19.24em;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+.Form 
+
+.Form a {
+    color: #047275;
+}
+
+.Continue {
+    width: 21.4em;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(57, 107, 109);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Continue:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #047275;
+    border: 1px solid #047275;
+    transition: 0.3s ease;
+
+}
+
+.Google {
+    background-color: #fff;
+    border: 1px solid #bdbdbd ;
+    margin-top: 15px;
+    width: 320px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Google:hover {
+    cursor: pointer;
+    background-color: #222222;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.Forgot {
+    margin-bottom: 15px;
+}
+
+.Forgot a {
+    color: #318572;
+}
+
+.Forgot a:hover {
+    color: #4e4e4e;
+}
+
+.SignUp a {
+    color: #318572;
+}
+
+.SignUp a:hover {
+    color: #4e4e4e;
+}

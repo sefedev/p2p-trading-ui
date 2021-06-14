@@ -1,0 +1,65 @@
+.AdPane {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 65px;
+}
+
+.AD {
+    display: flex;
+    justify-items: flex-start;
+    margin: 0;
+    padding-top: 0px;
+    width: 200px;
+    font-size: 36px;
+    font-weight: 900;
+    height: fit-content;
+}
+
+.Settings {
+    width: 184.66px;
+    display: flex;
+    
+}
+
+.Settings button {
+    width: 64.66px;
+    padding: 20px;
+    height: 50px;
+}
+
+.Settings button:first-child {
+    display: flex;
+    width: 120px;
+    margin-right: 10px;
+    background: #D9EBCD;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.Settings button:first-child:hover {
+    cursor: pointer;
+    background-color: #95bee2;
+    transition: 0.3s ease;
+}
+
+.Settings button:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #20b338;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.Settings button:nth-child(2):hover{
+    cursor: pointer;
+    background-color: #232c5f;
+    transition: 0.3s ease;
+}

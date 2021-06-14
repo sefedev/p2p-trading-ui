@@ -1,0 +1,77 @@
+.Footer {
+    display: flex;
+    background-color: #4b8509;
+    width: 100%;
+    height: 470px;
+    padding-top: 0px;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: #5c5c5c;
+    transition: 0.3s ease;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.Socials {
+    width: 265.25px;
+    height: 335px;
+    margin-top: 50px;
+}
+
+.socials div{
+    margin-bottom: 30px;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Brand {
+    background-color: #4b8509;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.Brand:hover {
+    cursor: pointer;
+}
+
+.Products {
+    width: 265.25px;
+    height: 335px;
+    margin-top: 50px;
+}
+
+.Company {
+    width: 265.25px;
+    height: 335px;
+    margin-top: 50px;
+}
+
+.Help {
+    width: 265.25px;
+    height: 335px;
+    margin-top: 50px;
+}
+
+ul{
+    text-align: left;
+    padding: 0;
+}
+
+.ulHead {
+    text-align: left;
+}
