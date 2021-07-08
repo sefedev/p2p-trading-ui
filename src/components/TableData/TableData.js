@@ -3,7 +3,7 @@ import classes from "./TableData.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
-const tableData = () => {
+const tableData = ({ data }) => {
  
   
   return (
@@ -12,9 +12,9 @@ const tableData = () => {
       <FontAwesomeIcon icon={faCircle} className={classes.FaCircle}/>
       <span><a href="#/">User</a></span>
       </div>
-      <div>Other payment methods</div>
-      <div>32307</div>
-      <div>15-500</div>
+      <div>{data.payment}</div>
+      <div>{data.rate}</div>
+      <div>{data.limit}</div>
       <div className={classes.Button}>
         <button>
           <span>Buy</span>

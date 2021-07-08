@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 2,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 3,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 4,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 5,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 6,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 7,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    },
+    {
+      "id": 8,
+      "payment": "json-server",
+      "rate": "454",
+      "limit": "20-500"
+    }
+  ]
+}
